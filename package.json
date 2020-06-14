@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nevermindthelabel/csrf-node#readme",
   "dependencies": {
+    "csurf": "^1.11.0",
     "express": "^4.17.1"
   }
 }
