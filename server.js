@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
 
 app.get('/token', csrfToken, async (req, res) => {
   const result = await res.send(`token route hit, token is ${req.csrfToken()}`);
+  console.log(result);
 });
 
 app.listen(PORT, () => {
